@@ -1,0 +1,90 @@
+
+body{
+    background-color:#990100 ;   
+}
+
+.container{
+ background-color: transparent;
+ display: flex ;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-items: stretch;
+ align-content: space-between;
+ flex-flow: row wrap;
+ margin-top: 50px;
+}
+
+.item1{
+     display: flex;
+     border: 1px solid transparent;
+     flex-shrink: 2;
+     flex-basis: 100px;
+     flex-flow: row wrap;
+     box-sizing: border-box;
+     padding: 10px;
+     margin: 20px;
+     background-image: linear-gradient( #990100, #990100 , #b90504);
+     box-shadow: 20px 20px 50px black;    
+}
+
+.H1{
+    display: flex;
+    font-family: 'Grandes Vibrações';
+    color: rgb(231, 200, 97);
+    font-size: 35px;
+    padding-left: 55px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(241, 74, 33), 0 0 0.2em rgb(243, 187, 4);
+}
+
+.H2{
+    font-family:'Grandes Vibrações';
+    color: rgb(231, 200, 97);
+    font-size:  35px;
+    padding-left: 30px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(241, 74, 33), 0 0 0.2em rgb(243, 187, 4);
+}
+.H3{
+    font-family: 'Grandes Vibrações';
+    color: rgb(231, 200, 97);
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(241, 74, 33), 0 0 0.2em rgb(243, 187, 4);
+}
+
+.B{
+    font-family: 'Dosis', sans-serif;
+    color: #444343;
+    position: absolute;
+    padding: 15px 10px 10px 15px ;
+    font-size: 20px;
+    border-radius: 1px;
+    transform: rotate(340deg);
+}
+
+.P1{
+    font-family:  'Kanit', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+ .fundo1{
+   width: 250px;
+   height: 250px;
+   background-repeat: no-repeat; 
+   border-bottom: 5px solid  rgb(231, 200, 97); 
+}
+ 
+ .circulo{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50px;
+    border-style: double;
+    border-width: 4px ;
+    background-color:rgb(231, 200, 97);
+ }
