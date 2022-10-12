@@ -17,12 +17,12 @@ Layout menu simples.
 
  ```bash
  # Clonando o projeto 
- $ git clone https://github.com/NatiGhidini/Layout-next.github.io
+ $ git clone https://natighidini.github.io/Food-Menu/
  ```
 
  ```bash
  # Entrando no repositório
- $ cd Projeto-Git.Github
+ $ cd Food-Menu
  ```
 
  ```bash
